@@ -3,34 +3,60 @@
     <head>
         <meta charset="utf-8">
         <title>Assignment2 | typography2</title>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap" rel="stylesheet"/>
+        <script src="https://kit.fontawesome.com/8bc5acd820.js" crossorigin="anonymous"></script>
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <header class="header">
-            <h1 class="heading">ProInsure</h1>
-            <nav class="nav">
-                <a href="#">HOME</a>
-                <a href="#">ABOUT</a>
-                <a href="#">CONTACT</a>
-                <button class="btn"><a href="#">VIEWPLANS</a></button>
-            </nav>
-        </header>
-        <main>
-            <article>
-                <div class="container">
-                    <div class="col">
-                        <div class="left">
-                            <hr class="hr">
-                            <h2 class="heading1">Humanizing Your Insurance</h2>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae obcaecati iste earum nihil facilis alias, nam eius laborum sint reprehenderit error facere voluptatum quam, quia voluptatem, perspiciatis laudantium assumenda eligendi?
+       <header class="header">
+           <div class="container flex">
+               <a class="left" href="#">Proinsure</a>
+               <nav class="nav">
+                   <a href="#">Home</a>
+                   <a href="#">About</a>
+                   <a href="#">Contact</a>
+                   <a class="btn" href="#">View Plans</a>
+               </nav>
+           </div>
+       </header>
+       <main>
+           <article class="article">
+               <div class="container">
+                    <div class="flex align-item">
+                        <div class="col">
+                            <div class="line"></div>
+                            <h1 class="heading">Humanizing Your Insurance</h1>
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Recusandae perspiciatis corporis ratione autem, 
+                                ipsam veritatis quisquam eius dolorem ullam consequuntur,
+                                delectus dignissimos similique nobis nemo dicta! Et fugiat laborum doloribus.
                             </p>
-                            <button class="btn"><a href="#">VIEWPLANS</a></button>
+                            <a class="btn btn1" href="#">View Plans</a>
                         </div>
-                            
+                        <div class="col">
+                            <img class="img" src="assets/01.png" alt="01">
+                        </div>
                     </div>
-                </div>
-            </article>
-        </main>
+               </div>
+           </article>
+           <section class="section">
+               <div class="container">
+                    <div>
+                        <img src="assets/02.png" alt="02">
+                    </div>
+                    <div>
+                        <h2 class="heading">About The Insure</h2>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Recusandae perspiciatis corporis ratione autem, 
+                            ipsam veritatis quisquam eius dolorem ullam consequuntur,
+                            delectus dignissimos similique nobis nemo dicta! Et fugiat laborum doloribus. 
+                        </p>
+                        <a class="btn" href="#">Know More</a>
+                    </div>
+               </div>
+           </section>
+       </main>
     </body>
 </html>
