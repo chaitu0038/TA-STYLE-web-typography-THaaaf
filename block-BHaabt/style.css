@@ -120,7 +120,7 @@ a{
 .line{
     width: 200px;
     height: 2px;
-    background-color: whitesmoke;
+    background-color: rgba(195, 209, 208, 0.904);
 }
 .heading{
     font-size: 52px;
@@ -138,5 +138,58 @@ a{
 }
 .img{
     width: 100%;
-    margin-bottom: -220px;
+    margin-bottom: -180px;
+}
+
+.section{
+    margin-top: 72px;
+}
+.padding{
+    padding: 130px 0;
+}
+.heading1{
+    padding-top: 2px;
+    font-size: 44px;
+    color: rgb(43, 43, 83);
+}
+
+.col1{
+    flex: 0 1 30%;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(6, 67, 87);
+    display: flex;
+    align-items: center;
+    color: lightblue;
+}
+.section1{
+    margin-bottom: 32px;
+}
+
+
+.section2{
+    background-color: rgb(43, 43, 83);
+    color: #ffffff;
+    padding: 80px 30px;
+}
+.heading2{
+    font-size: 32px;
+}
+.center{
+    padding: 16px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.small{
+    color: floralwhite;
+    display: flex;
+    justify-content: center;
+}
+.padding1{
+    padding: 16px;
+    background-color: rgb(43, 43, 83);
 }
